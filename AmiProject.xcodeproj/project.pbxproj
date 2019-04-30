@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F21ABBB227491D900855C7F /* ConversaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21ABBA227491D900855C7F /* ConversaTableViewCell.swift */; };
+		3F21ABC02274988600855C7F /* ConversaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21ABBE2274988600855C7F /* ConversaTableViewController.swift */; };
+		3F21ABC12274988600855C7F /* ConversaTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F21ABBF2274988600855C7F /* ConversaTableViewController.xib */; };
+		3F21ABC3227499E200855C7F /* Conversa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21ABC2227499E200855C7F /* Conversa.swift */; };
+		3F6FE8A0227777E500BA4BDE /* ConversaDetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FE89F227777E500BA4BDE /* ConversaDetalhesViewController.swift */; };
+		3F6FE8A62278B7B100BA4BDE /* dadosDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FE8A52278B7B100BA4BDE /* dadosDAO.swift */; };
+		3F6FE8A82278B80100BA4BDE /* UltimoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FE8A72278B80100BA4BDE /* UltimoViewController.swift */; };
+		3F6FE8AA2278BBD400BA4BDE /* RSPizzaGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FE8A92278BBD400BA4BDE /* RSPizzaGraphView.swift */; };
 		3FDFEF6D2270F28500F453D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDFEF6C2270F28500F453D3 /* AppDelegate.swift */; };
 		3FDFEF6F2270F28500F453D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDFEF6E2270F28500F453D3 /* ViewController.swift */; };
 		3FDFEF722270F28500F453D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDFEF702270F28500F453D3 /* Main.storyboard */; };
@@ -16,6 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F21ABBA227491D900855C7F /* ConversaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversaTableViewCell.swift; sourceTree = "<group>"; };
+		3F21ABBE2274988600855C7F /* ConversaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversaTableViewController.swift; path = ../ConversaTableViewController.swift; sourceTree = "<group>"; };
+		3F21ABBF2274988600855C7F /* ConversaTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConversaTableViewController.xib; path = ../ConversaTableViewController.xib; sourceTree = "<group>"; };
+		3F21ABC2227499E200855C7F /* Conversa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Conversa.swift; path = ../Conversa.swift; sourceTree = "<group>"; };
+		3F6FE89F227777E500BA4BDE /* ConversaDetalhesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversaDetalhesViewController.swift; path = ../ConversaDetalhesViewController.swift; sourceTree = "<group>"; };
+		3F6FE8A52278B7B100BA4BDE /* dadosDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dadosDAO.swift; sourceTree = "<group>"; };
+		3F6FE8A72278B80100BA4BDE /* UltimoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UltimoViewController.swift; sourceTree = "<group>"; };
+		3F6FE8A92278BBD400BA4BDE /* RSPizzaGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSPizzaGraphView.swift; sourceTree = "<group>"; };
+		3F6FE8AB2278BBDE00BA4BDE /* RSPizzaGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPizzaGraphView.h; sourceTree = "<group>"; };
 		3FDFEF692270F28500F453D3 /* AmiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDFEF6C2270F28500F453D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FDFEF6E2270F28500F453D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,13 +73,22 @@
 		3FDFEF6B2270F28500F453D3 /* AmiProject */ = {
 			isa = PBXGroup;
 			children = (
+				3F6FE89F227777E500BA4BDE /* ConversaDetalhesViewController.swift */,
+				3F21ABC2227499E200855C7F /* Conversa.swift */,
+				3F21ABBE2274988600855C7F /* ConversaTableViewController.swift */,
+				3F21ABBF2274988600855C7F /* ConversaTableViewController.xib */,
 				3FDFEF6C2270F28500F453D3 /* AppDelegate.swift */,
 				3FDFEF6E2270F28500F453D3 /* ViewController.swift */,
 				3FDFEF702270F28500F453D3 /* Main.storyboard */,
+				3F21ABBA227491D900855C7F /* ConversaTableViewCell.swift */,
 				3FDFEF762270F28500F453D3 /* Assets.xcassets */,
 				3FDFEF782270F28500F453D3 /* LaunchScreen.storyboard */,
 				3FDFEF7B2270F28500F453D3 /* Info.plist */,
 				3FDFEF732270F28500F453D3 /* AmiProject.xcdatamodeld */,
+				3F6FE8A92278BBD400BA4BDE /* RSPizzaGraphView.swift */,
+				3F6FE8AB2278BBDE00BA4BDE /* RSPizzaGraphView.h */,
+				3F6FE8A52278B7B100BA4BDE /* dadosDAO.swift */,
+				3F6FE8A72278B80100BA4BDE /* UltimoViewController.swift */,
 			);
 			path = AmiProject;
 			sourceTree = "<group>";
@@ -126,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F21ABC12274988600855C7F /* ConversaTableViewController.xib in Resources */,
 				3FDFEF7A2270F28500F453D3 /* LaunchScreen.storyboard in Resources */,
 				3FDFEF772270F28500F453D3 /* Assets.xcassets in Resources */,
 				3FDFEF722270F28500F453D3 /* Main.storyboard in Resources */,
@@ -139,8 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6FE8A62278B7B100BA4BDE /* dadosDAO.swift in Sources */,
+				3F21ABC3227499E200855C7F /* Conversa.swift in Sources */,
 				3FDFEF6F2270F28500F453D3 /* ViewController.swift in Sources */,
+				3F6FE8AA2278BBD400BA4BDE /* RSPizzaGraphView.swift in Sources */,
+				3F21ABC02274988600855C7F /* ConversaTableViewController.swift in Sources */,
 				3FDFEF6D2270F28500F453D3 /* AppDelegate.swift in Sources */,
+				3F6FE8A82278B80100BA4BDE /* UltimoViewController.swift in Sources */,
+				3F21ABBB227491D900855C7F /* ConversaTableViewCell.swift in Sources */,
+				3F6FE8A0227777E500BA4BDE /* ConversaDetalhesViewController.swift in Sources */,
 				3FDFEF752270F28500F453D3 /* AmiProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +339,7 @@
 				3FDFEF802270F28500F453D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -28,8 +28,7 @@ class ViewController: UIViewController {
         self.number = 0
         self.liberado = false
     }
-    
-    @IBAction func button(_ sender: UIButton) {
+    @IBAction func botao(_ sender: Any) {
         number = Int(arc4random_uniform(2))
         
         //OBSERVACAO: ELE EXECUTA O PRINT analises ANTES DE ATUALIZAR O ARRAY DE analises
@@ -41,7 +40,6 @@ class ViewController: UIViewController {
             self.analises = analises
             self.liberado = true;
         })
-
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
